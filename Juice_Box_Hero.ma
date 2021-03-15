@@ -1,6 +1,6 @@
 //Maya ASCII 2019 scene
 //Name: Juice_Box_Hero.ma
-//Last modified: Fri, Mar 12, 2021 12:22:10 PM
+//Last modified: Fri, Mar 12, 2021 01:39:21 PM
 //Codeset: UTF-8
 requires maya "2019";
 requires "stereoCamera" "10.0";
@@ -10932,18 +10932,18 @@ createNode mesh -n "pCubeShape1" -p "pCube1";
 	setAttr ".covm[0]"  0 1 1;
 	setAttr ".cdvm[0]"  0 1 1;
 createNode lightLinker -s -n "lightLinker1";
-	rename -uid "F51BE452-A540-E569-CC31-CC823D6C0D1C";
+	rename -uid "C7BA8EEB-4144-BC38-991B-52949E7C1F11";
 	setAttr -s 6 ".lnk";
 	setAttr -s 6 ".slnk";
 createNode displayLayerManager -n "layerManager";
-	rename -uid "74FE25AB-0947-70D6-178C-52B76759F906";
+	rename -uid "941FBFB6-0447-2D2E-E144-F5A399549E43";
 	setAttr ".cdl" 1;
 	setAttr -s 4 ".dli[1:3]"  1 2 3;
 	setAttr -s 4 ".dli";
 createNode displayLayer -n "defaultLayer";
 	rename -uid "45BC6930-1D4D-A0CF-42E7-0E9C0550BCF2";
 createNode renderLayerManager -n "renderLayerManager";
-	rename -uid "C8601E5F-034E-70B2-593C-249B99BD33BE";
+	rename -uid "0156A15F-5947-93F3-448B-72B59B51D9E3";
 createNode renderLayer -n "defaultRenderLayer";
 	rename -uid "1DA44D3D-194E-68EB-0FE9-019D0903C517";
 	setAttr ".g" yes;
@@ -13237,10 +13237,10 @@ createNode animCurveUU -n "StrawPV_CTRL_visibility";
 createNode nodeGraphEditorBookmarkInfo -n "nodeGraphEditorBookmarkInfo1";
 	rename -uid "03ED0903-424A-58F8-E2AC-9693A27A3D9E";
 createNode shapeEditorManager -n "shapeEditorManager";
-	rename -uid "FE02D817-C848-BFA2-ED32-87BC2AF7B487";
+	rename -uid "F241E744-9F4D-9078-266D-62BD37C2F24F";
 	setAttr ".bsdt[0].bscd" -type "Int32Array" 1 0 ;
 createNode poseInterpolatorManager -n "poseInterpolatorManager";
-	rename -uid "56DC3279-C749-AEF9-7195-D8A27E37BEC6";
+	rename -uid "99B21270-DF49-08AF-107C-12AEF16993D3";
 createNode polyCube -n "polyCube1";
 	rename -uid "827DD621-2B4E-3CD6-E1D9-07A5272AD6A1";
 	setAttr ".w" 10.89673859164629;
