@@ -1,6 +1,6 @@
 //Maya ASCII 2019 scene
 //Name: Avatar_v1-1.ma
-//Last modified: Thu, Apr 01, 2021 01:38:36 PM
+//Last modified: Thu, Apr 01, 2021 01:40:20 PM
 //Codeset: UTF-8
 requires maya "2019";
 requires "mtoa" "3.1.2";
@@ -25801,7 +25801,7 @@ createNode lambert -n "Hair_Lambert";
 createNode shadingEngine -n "lambert4SG";
 	rename -uid "2E9FAF04-D64D-2020-4FAD-F5BE70017E1F";
 	setAttr ".ihi" 0;
-	setAttr -s 6 ".dsm";
+	setAttr -s 5 ".dsm";
 	setAttr ".ro" yes;
 createNode materialInfo -n "materialInfo6";
 	rename -uid "A289B238-594A-E0E5-DA5E-46ABDB8B56FC";
@@ -25877,7 +25877,7 @@ createNode polyExtrudeFace -n "polyExtrudeFace1";
 	setAttr ".cbn" -type "double3" -1.096763014793396 7.801307201385498 -1.3967070579528809 ;
 	setAttr ".cbx" -type "double3" 1.1256285905838013 9.4617166519165039 0.56158065795898438 ;
 createNode nodeGraphEditorInfo -n "hyperShadePrimaryNodeEditorSavedTabsInfo";
-	rename -uid "A0D7133E-BC4E-3B8E-7B61-AAB440A8AD06";
+	rename -uid "9825C614-9A4D-6E6C-FB1C-3D8FEE414CA6";
 	setAttr ".tgi[0].tn" -type "string" "Untitled_1";
 	setAttr ".tgi[0].vl" -type "double2" -354.82252892390306 -519.08565919982664 ;
 	setAttr ".tgi[0].vh" -type "double2" 455.67729996876784 298.84994793956594 ;
